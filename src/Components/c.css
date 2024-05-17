@@ -1,0 +1,27 @@
+/* App.css or any appropriate CSS file */
+.dashboard {
+    padding: 20px;
+}
+
+.enrolled-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.enrolled-course-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.enrolled-course-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.enrolled-course-card p {
+    font-size: 1em;
+}
