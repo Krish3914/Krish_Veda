@@ -34,6 +34,31 @@
   transition: transform 0.2s;
 }
 
+#center-align{
+  /* margin-left: 40%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#center-align1 {
+  margin-left: 22%;
+  /* gap: 4; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+#big{
+  height: 300px;
+  border-radius: 30px;
+  background-color: lightblue;
+}
+#big1 {
+  height: 250px;
+  border-radius: 30px;
+  background-color: lavenderblush;
+}
+
 .course-card:hover,
 .enrolled-course-card:hover {
   transform: scale(1.05);
